@@ -12,12 +12,17 @@ and open the template in the editor.
     <body>
         <?php
         $jmeno = 'Jirka';
-        $znamky = array(5,5,5,5,2,2,4,5);
-        $prumer = array_sum($znamky) / count ($znamky);
+        $mesice = array("leden", "únor", "březen", "duben", "květěn", "červen",
+            "červenec", "srpen", "září", "říjen", "listopad", "prosinec");
+        $den = date("j");
+        $mesic = date ("m");
+        $mesicSlovy = $mesice[$mesic - 1];
+        $rok = date ("Y");
+        
       
         
         
-        echo("Můj průměr je $prumer.");
+        echo("Ahoj, dnes je $den. $mesicSlovy $rok");
         ?>
     </body>
 </html>
