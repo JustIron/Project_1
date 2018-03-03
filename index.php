@@ -11,7 +11,9 @@ and open the template in the editor.
     </head>
     <body>
         <?php
-        // put your code here
+        $jmeno = 'Jirka';
+        $text = "Jmenuji se $jmeno \nS tímto jménem jsem spokojený.";
+        echo($text);
         ?>
     </body>
 </html>
