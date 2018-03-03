@@ -12,16 +12,12 @@ and open the template in the editor.
     <body>
         <?php
         $jmeno = 'Jirka';
-        $znamky = array();
-       
+        $znamky = array(5,5,5,5,2,2,4,5);
+        $prumer = array_sum($znamky) / count ($znamky);
+      
         
-        $znamky[0] = 1;
-        $znamky[1] = 2;
-        $znamky[2] = 1;
-        $znamky[3] = 4;
         
-        print_r($znamky);
-        echo("Třetí známka v poli je " . $znamky[2] . ".");
+        echo("Můj průměr je $prumer.");
         ?>
     </body>
 </html>
