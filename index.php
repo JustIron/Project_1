@@ -12,8 +12,15 @@ and open the template in the editor.
     <body>
         <?php
         $jmeno = 'Jirka';
-        $text = "Jmenuji se $jmeno \nS tímto jménem jsem spokojený.";
-        echo($text);
+        $znamky = array();
+       
+        
+        $znamky[0] = 1;
+        $znamky[1] = 2;
+        $znamky[2] = 1;
+        $znamky[3] = 4;
+        
+        print_r($znamky);
         ?>
     </body>
 </html>
