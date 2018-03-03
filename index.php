@@ -21,6 +21,7 @@ and open the template in the editor.
         $znamky[3] = 4;
         
         print_r($znamky);
+        echo("Třetí známka v poli je " . $znamky[2] . ".");
         ?>
     </body>
 </html>
